@@ -1,41 +1,135 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Module 2 Responsive</title>
+    <meta charset="utf-8">
 
-	<link href='css/style.css' rel='stylesheet' type='text/css'>	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <title>Module 3 Navbar</title>
+
+    <link href='css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href='css/styles.css' rel='stylesheet' type='text/css'>
+
 </head>
 
 <body>
 
-<h1 style="text-align: center;">Our Menu</h1>
-<div class="container">
-<div class="row">
-	<div class="col-lg-1 col-md-2 col-sm-3">
-		<div class="box">
-			<div id="first-category" class="category">
-				<h2>Chicken</h2>
-			</div>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.</p>
-		</div>
-	</div>
-	<div class="col-lg-1 col-md-2 col-sm-3">
-			<div class="box">
-			<div id="second-category" class="category">
-				<h2>Beef</h2>
-			</div>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate fermentum volutpat. Phasellus semper elit eu nibh facilisis elementum. Curabitur faucibus, lectus sit amet ornare ultricies, dui ligula consequat erat.</p>
-		</div>
-	</div>
-	<div class="col-lg-1 col-md-4 col-sm-3">	<div class="box">
-			<div id="third-category" class="category">
-				<h2>Sushi</h2>
-			</div>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ex est, consectetur ut lacus lobortis, congue vehicula quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis.</p>
-		</div>
-	</div>
-</div>
-</div>
+<header>
+
+    <nav id="navbar-header" class="navbar navbar-default"></h1>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <div class="navbar-brand">
+
+                    <a href="index.html">
+                        <h1>Food, LLC</h1>
+                    </a>
+
+                </div>
+
+
+                <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right visible-xs text-center" id="nav-list">
+                    
+                    <li><a href="#first-category">Chicken</a></li>
+
+                    <li><a href="#second-category">Beef</a></li>
+
+                    <li><a href="#third-category">Sushi</a></li>
+        
+        
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+    <div class="container" id="main-content">
+        <h2 class="text-center" id="top-heading">Our Menu</h2>
+        
+        <div class="row" id="home-tiles">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div id="first-category">
+
+                    <section>
+                        
+                        <h3 class="text-center">Chicken</h3>
+
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.</p>   
+
+                        <p>
+                            <a href="#top-heading">Page up</a>
+                        </p>
+
+                    </section>
+                    
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div id="second-category">
+
+                    <section>
+                        
+                        <h3 class="text-center">Beef</h3>
+
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.</p>   
+
+                        <p>
+                            <a href="#top-heading">Page up</a>
+                        </p>
+
+                    </section>
+                    
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div id="third-category">
+
+                    <section>
+                        
+                        <h3 class="text-center">Sushi</h3>
+
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id cursus nibh. Sed ullamcorper metus sit amet dictum sodales. Sed sed est vehicula, ultrices lacus ut, posuere enim. Aenean consectetur.</p>   
+
+                        <p>
+                            <a href="#top-heading">Page up</a>
+                        </p>
+
+                    </section>
+                    
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="clearfix visible-lg-blok"></div>
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>

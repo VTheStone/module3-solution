@@ -1,0 +1,134 @@
+/******* Base *******/
+
+body {
+
+    background-color: #F0E5E5;
+    font-family: sans-serif;
+
+}
+
+
+/******* Header *******/
+
+#navbar-header {
+
+    background-color: #873333;
+
+}
+
+#navbar-header button {
+
+    margin-top: 60px;
+
+}
+
+#navbar-list {
+
+    background-color: #CFA298;
+
+}
+
+#navbar-list a {
+
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    font-size: 1.5em;
+
+}
+
+#navbar-list a:hover {
+
+    background-color: #C7958A;
+    color: black;
+
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+
+    background-color: #ACA4A4;
+
+}
+
+.navbar-collapse {
+    
+    border-top: 0;
+
+}
+
+
+.navbar-brand, .navbar-nav li a {
+    
+    padding-top: 0;
+    line-height: 75px;
+    height: 75px;
+    
+}
+
+.navbar-brand h1 {
+
+    font-family: sans-serif;
+    font-size: 2em;
+    color: white;
+
+}
+
+
+
+/******* Page *******/
+
+#main-content {
+    width: 90%;
+    margin-bottom: 100px;
+}
+
+#main-content h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+#main-content h3 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+
+
+#first-category {
+
+    background-color: #E9D362;
+    padding: 30px;
+}
+
+#second-category {
+
+    background-color: #E5615B;
+    color: white;
+    padding: 30px;
+
+}
+
+#third-category {
+
+    background-color: #58D2C9;
+    padding: 30px;
+
+}
+
+h1 {
+
+    margin-bottom: 15px;
+    font-family: sans-serif;
+
+}
+
+h2 {
+
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: sans-serif;
+
+}
+
