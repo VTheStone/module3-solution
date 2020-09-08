@@ -5,8 +5,6 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-
     <title>Module 3 Navbar</title>
 
     <link href='css/bootstrap.min.css' rel='stylesheet' type='text/css'>
@@ -17,46 +15,40 @@
 <body>
 
 <header>
+        <nav id="header-nav" class="navbar navbar-default"></h1>
+          <div class="container">
+            <div class="header-nav">
 
-    <nav id="navbar-header" class="navbar navbar-default"></h1>
-        <div class="container-fluid">
-            <div class="navbar-header">
                 <div class="navbar-brand">
 
-                    <a href="index.html">
+                    <a href="index.html" class="pull-left visible-md visible-lg">
                         <h1>Food, LLC</h1>
                     </a>
 
                 </div>
 
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
 
-                <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
 
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    </button>
+                 </div>
 
-                </button>
+                <div class="collapse navbar-collapse" id="collapsable-nav">
+                    <ul class="nav navbar-nav navbar-right visible-xs text-center" id="nav-list">
+                        <li><a href="#first-category">Chicken</a></li>
+
+                        <li><a href="#second-category">Beef</a></li>
+
+                        <li><a href="#third-category">Sushi</a></li>
+                    </ul>
+                </div>
             </div>
-
-
-            <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right visible-xs text-center" id="nav-list">
-                    
-                    <li><a href="#first-category">Chicken</a></li>
-
-                    <li><a href="#second-category">Beef</a></li>
-
-                    <li><a href="#third-category">Sushi</a></li>
-        
-        
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-</header>
+        </nav>
+    </header>
 
     <div class="container" id="main-content">
         <h2 class="text-center" id="top-heading">Our Menu</h2>
@@ -125,11 +117,14 @@
         </div>
 
     </div>
+    <div class="clearfix visible-lg-block"></div>
 
-    <div class="clearfix visible-lg-blok"></div>
 
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
 </body>
+
 </html>
